@@ -1,11 +1,12 @@
 import React from 'react';
+import { Route } from 'react-router-dom'
+
 import inClass from './Content.module.css';
 
-function Content() {
+const Content = () => {
     return (
         <div className={ inClass.content }>Content</div>
     )
  }
 
  export default Content;
- 
