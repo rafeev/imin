@@ -8,9 +8,9 @@ import Footer from './Components/Footer/Footer';
 const App = () => {
   return (
     <BrowserRouter>
-      <Header />
-      <Content />
-      <Footer />
+        <Header />
+        <Content />
+        <Footer />
     </BrowserRouter>
   )
 }
