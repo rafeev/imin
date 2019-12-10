@@ -6,6 +6,7 @@
     background: #71889B;
     margin-bottom: 10px;
     max-height: 72px;
+    text-decoration: none;
 }
 
 .title {
@@ -14,4 +15,5 @@
     color: #FFFFFF;
     letter-spacing: 0.5px;
     text-align: center;
+    text-decoration: none;
 }

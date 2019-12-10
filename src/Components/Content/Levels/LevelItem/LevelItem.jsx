@@ -1,11 +1,12 @@
 import React from 'react';
-import inClass from './LevelItem.module.css'
+import inClass from './LevelItem.module.css';
+import { NavLink } from 'react-router-dom';
 
-const LevelItem = () => {
+const LevelItem = (props) => {
     return (
-        <div className={ inClass.wrapper }>
-            <div className={ inClass.title }>Level title</div>
-        </div>
+        <NavLink to="/game" className={ inClass.wrapper }>
+            <span className={ inClass.title }>Level title</span>
+        </NavLink>
     )
 }
 
