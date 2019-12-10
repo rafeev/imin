@@ -1,9 +1,9 @@
 import React from 'react';
 import { Route } from 'react-router-dom';
 import inClass from './Content.module.css';
-import Welcome from './Welcome/Welcome';
-import Game from './Game/Game';
-import Levels from './Levels/Levels';
+import Welcome from '../Welcome/Welcome';
+import Game from '../Game/Game';
+import Levels from '../Levels/Levels';
 
 const Content = () => {
     return (
