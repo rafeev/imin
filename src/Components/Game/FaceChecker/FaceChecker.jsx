@@ -4,7 +4,7 @@ import inClass from './FaceChecker.module.css';
 const FaceChecker = (props) => {
     return (
         <div className={ inClass.wrapper }>
-            <img className={ inClass.image } src={ props.image } />
+            <img className={ inClass.image } src={ props.image } alt="test"/>
         </div>
     )
 }

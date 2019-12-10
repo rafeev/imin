@@ -1,5 +1,5 @@
 import React from 'react';
-import inClass from './Welcome.module.css';
+// import inClass from './Welcome.module.css';
 
 const Welcome = () =>  {
     return (

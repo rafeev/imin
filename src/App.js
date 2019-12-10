@@ -5,12 +5,12 @@ import Welcome from './Components/Welcome/Welcome';
 import Levels from './Components/Levels/Levels';
 import Game from './Components/Game/Game';
 
-const App = () => {
+const App = (props) => {
   return (
     <BrowserRouter>
-      <Route path='/levels' component={ Levels } />
-      <Route path='/game' component={ Game } />
-      <Route path='/welcome' component={ Welcome } />
+      <Route path='/levels' render={ () => <Levels /> } />
+      <Route path='/game' render={ Game } />
+      <Route path='/welcome' render={ Welcome } />
     </BrowserRouter>
   )
 }
