@@ -1,8 +1,12 @@
 import React from 'react';
+import inClass from './Game.module.css';
+import Control from './Control/Control';
 
 const Game = () => {
     return (
-        <div>Game</div>
+        <div className={ inClass.wrapper }>
+            <Control />
+        </div>
     )
 }
 

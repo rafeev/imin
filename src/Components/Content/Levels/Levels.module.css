@@ -1,0 +1,20 @@
+.wrapper {
+    display: flex;
+    overflow: hidden;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.image {
+    flex: 1;
+    margin: 20px;
+    background: #fff;
+    opacity: .6;
+    border-radius: 10px;
+}
+
+.content {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+}

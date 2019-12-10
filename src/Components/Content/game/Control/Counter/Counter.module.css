@@ -1,0 +1,25 @@
+.wrapper {
+    float: left;
+    width: 50%;
+    height: 100%;
+    background: #2FC6F6;
+    box-shadow: 0 2px 30px 0 rgba(47,198,246,0.70);
+    border-radius: 0 11px 0 25px;
+    text-align: center;
+}
+
+.wrapper:before {
+    content: '';
+    display: inline-block;
+    vertical-align: middle;
+    width: 100%;
+}
+
+.title {
+    display: inline-block;
+    vertical-align: middle;
+    font-family: "Helvetica Neue", Arial, sans-serif;
+    font-weight: bold;
+    font-size: 46px;
+    color: #fff;
+}

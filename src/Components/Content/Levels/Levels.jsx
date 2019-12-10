@@ -1,12 +1,17 @@
 import React from 'react';
 import LevelItem from './LevelItem/LevelItem';
+import inClass from './Levels.module.css';
 
 const Levels = () => {
     return (
-        <div>
-            <LevelItem />
-            <LevelItem />
-            <LevelItem />
+        <div className={ inClass.wrapper } >
+            <div className={ inClass.image }></div>
+            <div className={ inClass.content }>
+                <LevelItem />
+                <LevelItem />
+                <LevelItem />
+                <LevelItem />
+            </div>
         </div>
     )
 }

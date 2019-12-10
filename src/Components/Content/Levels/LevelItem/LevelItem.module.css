@@ -1,3 +1,17 @@
 .wrapper {
     display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: center;
+    background: #71889B;
+    margin-bottom: 10px;
+    max-height: 72px;
+}
+
+.title {
+    font-family: "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 21px;
+    color: #FFFFFF;
+    letter-spacing: 0.5px;
+    text-align: center;
 }
